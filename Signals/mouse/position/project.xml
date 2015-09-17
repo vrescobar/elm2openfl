@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Mouse" package="com.sample.mouse" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="Mouse" />
+	
+	<source path="Source" />
+
+    <haxelib name="openfl-bitfive" />
+	<haxelib name="openfl" />
+    <haxeflag name="-dce full" />
+
+    <assets path="Assets" rename="assets" exclude="openfl.svg" />
+	<icon path="Assets/openfl.svg" />
+	
+</project>
