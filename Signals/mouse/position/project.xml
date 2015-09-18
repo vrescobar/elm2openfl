@@ -6,11 +6,12 @@
 	
 	<source path="Source" />
 
-    <haxelib name="openfl-bitfive" />
+
 	<haxelib name="openfl" />
     <haxeflag name="-dce full" />
 
-    <assets path="Assets" rename="assets" exclude="openfl.svg" />
-	<icon path="Assets/openfl.svg" />
+	<assets path="assets/fonts" rename="fonts" />
+	<assets path="assets" rename="assets" exclude="openfl.svg" />
+	<icon path="assets/openfl.svg" />
 	
 </project>

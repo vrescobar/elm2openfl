@@ -1,5 +1,6 @@
 package;
 
+import openfl.Assets;
 import openfl.text.TextFormatAlign;
 import openfl.text.TextFormat;
 import openfl.display.Sprite;
@@ -11,14 +12,15 @@ class Main extends Sprite
     private var messageField:TextField;
     function new(){
         super();
-        var messageFormat:TextFormat = new TextFormat("Verdana", 24, 0xFF0000);
-        messageFormat.align = TextFormatAlign.LEFT;
 
+        var font = Assets.getFont("assets/fonts/DroidSansMono.ttf");
+        var messageFormat:TextFormat = new TextFormat(font.fontName, 24, 0xFF0000);
+        messageFormat.align = TextFormatAlign.LEFT;
         messageField = new TextField();
         messageField.width = 500;
         messageField.x = messageField.y = 10;
-        // There is a bug in the android target caused by the next line; it prevents to show the text on android
-        //     however you can deactivate it or hopefully wait until an update fixes it
+        messageField.embedFonts = true;
+
         messageField.defaultTextFormat = messageFormat;
         messageField.text = #if !mobile "<move the mouse>" #else "<touch the screen>" #end ;
         addChild(messageField);
