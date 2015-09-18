@@ -3,18 +3,29 @@
 Port of the [elm examples](http://elm-lang.org/Examples.elm) to haxe's [openfl framework](openfl.org); or at least the most equivalent code in idiomatic haxe and openfl.
 I don't try to force openfl work in the way Elm does, but using equivalent patterns to solve the same problems, e.g. instead of use haxe signals, the way to go in openfl is to use events.
 
-This repository has been created for my own learning, but additional ideas and pull requests are also welcome.
+*This repository has been created for my own learning* but additional ideas and pull requests are also welcome.
+
+In the comparison between Elm and Haxe it is possible to see that Elm signals are very often just a one liner and Haxe 
+uses a verbose class (very often with much more options) which is per design full of side effects.
+
+To change that part of OpenFL the design would mean a whole new signal library and probably also a new renderer which 
+keeps the status in a nested/composable data structure and diff it between the frame renderings. 
+
+That is not possible without rewrite the whole OpenFL and Lime almost from the basement.
+
 
 # Examples Implemented
 
 ## Signals / Events
 
-In elm the communication between the parts is mostly made with signals, even if haxe has several implementations and 
-libraries of signals, in openfl events the way to go is using events
+In elm the communication between the parts is mostly made with _signals_, even if haxe has several implementations and
+libraries of signals, in openfl _events_ are the way to go.
+
 
 ### Mouse
 [position](Events/mouse/position) </br>
-[is down](Events/mouse/is_down)
+[is down](Events/mouse/is_down)  </br>
+[clicks](Events/mouse/clicks)  </br>
 
 
 # Related repositories
