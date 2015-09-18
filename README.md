@@ -1,14 +1,19 @@
 # elm2openfl
 
-Port of the [elm examples](http://elm-lang.org/Examples.elm) to haxe's [openfl framework](openfl.org); or at least the equivalent code in idiomatic haxe and openfl.
+Port of the [elm examples](http://elm-lang.org/Examples.elm) to haxe's [openfl framework](openfl.org); or at least the most equivalent code in idiomatic haxe and openfl.
+I don't try to force openfl work in the way Elm does, but using equivalent patterns to solve the same problems, e.g. instead of use haxe signals, the way to go in openfl is to use events.
 
-This repository has been created for my own learning, but additional ideas are welcome.
+This repository has been created for my own learning, but additional ideas and pull requests are also welcome.
 
 # Examples Implemented
 
-## Signals
+## Signals / Events
+
+In elm the communication between the parts is mostly made with signals, even if haxe has several implementations and 
+libraries of signals, in openfl events the way to go is using events
+
 ### Mouse
-[position](Signals/mouse/position) 
+[position](Events/mouse/position)
 
 
 # Related repositories
