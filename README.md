@@ -14,6 +14,7 @@ libraries of signals, in openfl events the way to go is using events
 
 ### Mouse
 [position](Events/mouse/position)
+[is down](Events/mouse/is_down)
 
 
 # Related repositories
