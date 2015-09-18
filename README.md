@@ -13,7 +13,7 @@ In elm the communication between the parts is mostly made with signals, even if 
 libraries of signals, in openfl events the way to go is using events
 
 ### Mouse
-[position](Events/mouse/position)
+[position](Events/mouse/position) </br>
 [is down](Events/mouse/is_down)
 
 
