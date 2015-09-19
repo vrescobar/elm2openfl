@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="yogi" package="com.sample.mouse" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="yogi" />
+	
+	<source path="Source" />
+
+	<haxelib name="openfl" />
+    <haxeflag name="-dce full" />
+
+	<assets path="assets/imgs" rename="images" />
+	<assets path="assets" rename="assets" exclude="openfl.svg" />
+	<icon path="assets/imgs/yogi.jpg" />
+
+</project>
