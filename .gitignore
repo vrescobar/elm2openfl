@@ -2,4 +2,6 @@
 */Export
 */Export*
 out/
+*.iml
+*/*.iml
 .idea

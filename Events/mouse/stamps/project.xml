@@ -5,9 +5,10 @@
 	<app main="Main" path="Export" file="stamps" />
 	
 	<source path="Source" />
-
+	<include path="../../../project.xml" />
 	<haxelib name="openfl" />
     <haxeflag name="-dce full" />
+
 	<assets path="assets" rename="assets" exclude="openfl.svg" />
 
 </project>
