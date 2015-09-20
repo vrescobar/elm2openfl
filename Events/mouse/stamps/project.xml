@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="stamps" package="com.sample.stamps" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="stamps" />
+	
+	<source path="Source" />
+
+	<haxelib name="openfl" />
+    <haxeflag name="-dce full" />
+	<assets path="assets" rename="assets" exclude="openfl.svg" />
+
+</project>

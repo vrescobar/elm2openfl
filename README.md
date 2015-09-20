@@ -27,6 +27,8 @@ libraries of signals, in OpenFL _events_ are the way to go.
 [is down](Events/mouse/is_down)  </br>
 [clicks](Events/mouse/clicks)  </br>
 [yogi](Events/mouse/yogi)  </br>
+tracker  </br>
+[stamps](Events/mouse/stamps): HSL to RGB not implemented; the origin of the circumference has a 90 degrees difference. </br>
 
 
 # Related repositories
