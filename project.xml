@@ -3,8 +3,7 @@
 
     <meta title="Elm Graphics" package="elm.graphics.Collage" version="1.0.0" company="Company Name" />
     <app main="Main" path="Export" file="Graphics" />
-
-    <source path="src" />
+    <source path="Elm" />
     <haxelib name="openfl" />
 
 </project>

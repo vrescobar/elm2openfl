@@ -13,6 +13,13 @@ keeps the status in a nested/composable data structure and diff it between the f
 
 That is not possible without rewrite the whole OpenFL and Lime almost from the basement.
 
+# Parts of the elm library which I implemented
+
+I am also lazily implementing the minimum required functions/classes from Elm which I need to implement the examples.
+At the moment I only needed __ngon__ and I am not really planning to port the things which already have an equivalent in
+openFL or haxe (for example I didn't port the __HSL__ color schema, it is out of the scope of this project).
+
+You can explore them in the package [Elm](Elm) from this repository.
 
 # Examples Implemented
 

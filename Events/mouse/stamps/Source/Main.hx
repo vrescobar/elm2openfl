@@ -1,6 +1,6 @@
 package;
 
-import elm.graphics.Collage;
+import elm.graphics.collage.Ngon;
 import openfl.text.TextField;
 import openfl.display.Sprite;
 import openfl.events.MouseEvent;

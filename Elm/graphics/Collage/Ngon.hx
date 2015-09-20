@@ -1,8 +1,8 @@
-package elm.graphics;
+package elm.graphics.collage;
 
 import Math.*;
-class Ngon extends openfl.display.Sprite {
 
+class Ngon extends openfl.display.Sprite {
     function new(x:Int, y:Int, sides:Int, radius:Float, color:Int, alpha:Float) {
         super();
         // Placing the polygon
