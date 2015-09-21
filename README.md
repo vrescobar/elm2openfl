@@ -23,7 +23,7 @@ You can explore them in the package [Elm](Elm) from this repository.
 
 # Examples Implemented
 
-## Signals / Events
+##  Events (Signals)
 
 In elm the communication between the parts is mostly made with _signals_, even if haxe has several implementations and
 libraries of signals, in OpenFL _events_ are the way to go.
@@ -33,8 +33,8 @@ libraries of signals, in OpenFL _events_ are the way to go.
 [position](Events/mouse/position) </br>
 [is down](Events/mouse/is_down)  </br>
 [clicks](Events/mouse/clicks)  </br>
+[tracker](Events/mouse/tracker)  </br>
 [yogi](Events/mouse/yogi)  </br>
-tracker  </br>
 [stamps](Events/mouse/stamps): HSL to RGB not implemented; the origin of the circumference has a 90 degrees difference. </br>
 
 

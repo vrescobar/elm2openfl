@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="tracker" package="com.sample.mouse" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="tracker" />
+	
+	<source path="Source" />
+
+	<haxelib name="openfl" />
+    <haxeflag name="-dce full" />
+	<include path="../../../project.xml" />m
+
+	<assets path="assets" rename="assets" exclude="openfl.svg" />
+
+</project>
