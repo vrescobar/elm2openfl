@@ -40,8 +40,8 @@ libraries of signals, in OpenFL _events_ are the way to go.
 size </br>
 centering </br>
 ### Keyboard
-arrows </br>
-wasd </br>
+[arrows](Events/keyboard/arrows) </br>
+wasd: No added value respect example arrows </br>
 keys down </br>
 key presses </br>
 
