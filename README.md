@@ -36,6 +36,14 @@ libraries of signals, in OpenFL _events_ are the way to go.
 [tracker](Events/mouse/tracker)  </br>
 [yogi](Events/mouse/yogi)  </br>
 [stamps](Events/mouse/stamps): HSL to RGB not implemented; the origin of the circumference has a 90 degrees difference. </br>
+### Window
+size </br>
+centering </br>
+### Keyboard
+arrows </br>
+wasd </br>
+keys down </br>
+key presses </br>
 
 
 # Related repositories
