@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="keys_down" package="com.sample.keys_down" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="keys_down" />
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	
+	<assets path="Assets" rename="assets" />
+	
+</project>
