@@ -5,7 +5,7 @@
 	<app main="Main" path="Export" file="keys_down" />
 	
 	<source path="Source" />
-	
+	<include path="../../../project.xml" />
 	<haxelib name="openfl" />
 	
 	<assets path="Assets" rename="assets" />

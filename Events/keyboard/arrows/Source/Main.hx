@@ -36,3 +36,52 @@ class Main extends Sprite {
         */
     }
 }
+
+class Directions {
+    private var keys:Map<Int,Bool>;
+    private var UP:Int;
+    private var DOWN:Int;
+    private var LEFT:Int;
+    private var RIGHT:Int;
+    public function new (up:Int, down:Int, left:Int, right:Int){
+        var UP = up;
+        var DOWN = down;
+        var LEFT = left;
+        var RIGHT = right;
+    }
+    public function key_handler(key:KeyboardEvent) {
+        if (key.type == KeyboardEvent.KEY_DOWN) {
+            keys.set(key.charCode, true);
+        }
+        if (key.type == KeyboardEvent.KEY_UP) {
+            keys.set(key.charCode, false);
+        }
+    }
+    public function coords() {
+        var keys_horitzonal:Int = isset(RIGHT) - isset(LEFT);
+        var keys_vertical:Int = isset(UP) - isset(DOWN);
+        return Std.string('{ x = ${keys_horitzonal}, y = ${ keys_vertical } }');
+    }
+    private function isset(k:Int) {
+        return switch(keys.get(k)) {
+            case false: 0;
+            case true: 1;
+            default: 0;
+        }
+    }
+}
+
+class KeyBoard {
+    private var keys:Array<KeyboardEvent>;
+    public function key_handler(key:KeyboardEvent) {
+        if (key.type == KeyboardEvent.KEY_DOWN) {
+            keys.push(key);
+        }
+        if (key.type == KeyboardEvent.KEY_UP) {
+            keys.remove(key);
+        }
+    }
+    public function iterator() {
+        return keys.iterator()
+    }
+}

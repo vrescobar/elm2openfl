@@ -4,4 +4,4 @@ html5:
 android:
 	haxelib run lime test project.xml android -j16 -Dlegacy
 ios:
-	haxelib run lime test project.xml ios -j16 -Dlegacy -simulator
+	haxelib run lime test project.xml ios -Dlegacy -j16 -simulator

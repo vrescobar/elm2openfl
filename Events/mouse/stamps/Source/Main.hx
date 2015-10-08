@@ -21,7 +21,7 @@ class Main extends Sprite {
     }
     function drawPentagon(x:Int, y:Int) {
         // The Elm example works with HSL instead of RGB and I am not willing to implement that right now.
-        p = new Ngon(x, y, 5, 20, Std.random(0xFFFFFF), 0.7);
+        p = new Ngon(x, y, 5, 50, Std.random(0xFFFFFF), 0.7);
         // Also another difference, 0 degrees in Elm equals 90 degrees in Haxe. For me it's fair.
         p.rotation = Std.random(360);
         this.addChild(p);
