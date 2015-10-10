@@ -16,8 +16,8 @@ That is not possible without rewrite the whole OpenFL and Lime almost from the b
 # Parts of the elm library which I implemented
 
 I am also lazily implementing the minimum required functions/classes from Elm which I need to implement the examples.
-At the moment I only needed __ngon__ and I am not really planning to port the things which already have an equivalent in
-openFL or haxe (for example I didn't port the __HSL__ color schema, it is out of the scope of this project).
+I am not really planning to port the things which already have an equivalent in openFL or haxe 
+(for example I didn't port the __HSL__ color schema, it is out of the scope of this project).
 
 You can explore them in the package [Elm](Elm) from this repository.
 
@@ -35,7 +35,7 @@ libraries of signals, in OpenFL _events_ are the way to go.
 [clicks](Events/mouse/clicks)  </br>
 [tracker](Events/mouse/tracker)  </br>
 [yogi](Events/mouse/yogi)  </br>
-[stamps](Events/mouse/stamps): HSL to RGB not implemented; the origin of the circumference has a 90 degrees difference. </br>
+[stamps](Events/mouse/stamps) </br>
 ### Window
 size </br>
 centering </br>
@@ -43,7 +43,7 @@ centering </br>
 [arrows](Events/keyboard/arrows) </br>
 [wasd](Events/keyboard/wasd) </br>
 [keys down](Events/keyboard/keys_down) </br>
-key presses </br>
+[key presses](Events/keyboard/key_presses) </br>
 
 
 # Related repositories
