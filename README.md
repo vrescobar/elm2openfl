@@ -41,7 +41,7 @@ size </br>
 centering </br>
 ### Keyboard
 [arrows](Events/keyboard/arrows) </br>
-wasd: No added value respect example arrows </br>
+[wasd](Events/keyboard/wasd) </br>
 [keys down](Events/keyboard/keys_down) </br>
 key presses </br>
 
