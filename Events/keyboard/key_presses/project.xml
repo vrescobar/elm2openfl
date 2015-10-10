@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
 	
-	<meta title="wasd" package="com.sample.wasd" version="1.0.0" company="Company Name" />
-	<app main="Main" path="Export" file="arrows" />
+	<meta title="key_presses" package="com.sample.key_presses" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="key_presses" />
 	
 	<source path="Source" />
 	<include path="../../../project.xml" />

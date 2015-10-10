@@ -24,6 +24,6 @@ class Keyboard {
         return {x: is(right) - is(left), y: is(up) - is(down)};
     }
     public function arrows() return toXY(38, 40, 37, 39, this.keys_down());
-    public function wasd() return toXY(Std.int("w"), Std.int("s"), Std.int("a"), Std.int("d"), this.keys_down());
+    public function wasd() return toXY(87, 83, 65, 68, this.keys_down());
 
 }
