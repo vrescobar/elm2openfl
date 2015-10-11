@@ -37,7 +37,7 @@ libraries of signals, in OpenFL _events_ are the way to go.
 [yogi](Events/mouse/yogi)  </br>
 [stamps](Events/mouse/stamps) </br>
 ### Window
-size </br>
+[size](Events/window/size) </br>
 centering </br>
 ### Keyboard
 [arrows](Events/keyboard/arrows) </br>
