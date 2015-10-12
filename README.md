@@ -38,13 +38,14 @@ libraries of signals, in OpenFL _events_ are the way to go.
 [stamps](Events/mouse/stamps) </br>
 ### Window
 [size](Events/window/size) </br>
-centering </br>
+[centering](Events/window/centering) </br>
 ### Keyboard
 [arrows](Events/keyboard/arrows) </br>
 [wasd](Events/keyboard/wasd) </br>
 [keys down](Events/keyboard/keys_down) </br>
 [key presses](Events/keyboard/key_presses) </br>
-
+### Time
+clock </br>
 
 # Related repositories
 [elm2haxe](https://github.com/metaperl/elm2haxe): Those guys have more ambitious goal, but I can't really understand the logic behind their folder structure.
