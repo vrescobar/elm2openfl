@@ -45,7 +45,7 @@ libraries of signals, in OpenFL _events_ are the way to go.
 [keys down](Events/keyboard/keys_down) </br>
 [key presses](Events/keyboard/key_presses) </br>
 ### Time
-clock </br>
+[clock](Events/time/clock): This implementation is way different but with similar results.</br>
 
 # Related repositories
 [elm2haxe](https://github.com/metaperl/elm2haxe): Those guys have more ambitious goal, but I can't really understand the logic behind their folder structure.

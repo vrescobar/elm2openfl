@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="clock" package="com.sample.clock" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="clock" />
+	
+	<source path="Source" />
+	<include path="../../../project.xml" />
+	<haxelib name="openfl" />
+    <haxeflag name="-dce full" />
+
+
+</project>
