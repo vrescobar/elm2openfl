@@ -23,6 +23,16 @@ You can explore them in the package [Elm](Elm) from this repository.
 
 # Examples Implemented
 
+## Core
+Not everything under the section core is relevant to haxe as they are different languages, but I find the type system
+of haxe flexible enough to implement everything that Elm has to offer without major complications.
+ 
+### union types
+ [either](Core/union_types/either) </br>
+ binary tree </br>
+ boolean expressions </br>
+
+
 ##  Events (Signals)
 
 In elm the communication between the parts is mostly made with _signals_, even if haxe has several implementations and
