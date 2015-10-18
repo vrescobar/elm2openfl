@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="LayoutSimple" package="com.sample.layoutsimple" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="LayoutSimple" />
+	
+	<source path="Source" />
+
+	<haxelib name="openfl" />
+	<assets path="Assets" rename="assets" />
+	
+</project>

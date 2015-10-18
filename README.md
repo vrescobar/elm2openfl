@@ -36,7 +36,7 @@ of haxe flexible enough to implement everything that Elm has to offer without ma
 ## Visuals
 ### Layout
 [Hello World](Visuals/layout/hello_world) </br>
-Simple layout </br>
+[Simple layout](Visuals/layout/layout_simple) </br>
 
 ##  Events (Signals)
 In elm the communication between the parts is mostly made with _signals_, even if haxe has several implementations and
